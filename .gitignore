@@ -1,8 +1,8 @@
 # folder build files
-build/
+/build
 
 # folder node modules
-node_modules/
+/node_modules
 
-# package-lock
+# json files
 *.json
