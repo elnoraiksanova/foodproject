@@ -7,26 +7,29 @@
   height: 540px;
   margin: 38px 0 36px 100px;
   padding: 38px;
-  text-align: center;
   background-color: #F8F9FA;
   background-image: url(../images/coffee.png);
   background-repeat: no-repeat;
   background-position: center;
   border-radius: $default;
   &-head {
+    text-align: center;
     &__date {
       font-family: $ff;
       font-size: 12px;
       color: #C2C2C4;
     }
     &__title {
-      font-family: $ff;
-      font-size: 24px;
-      color: #4E4F53;
-      padding: 15px 0;
+      margin: 30px 0 15px 0;
+      height: 50px;
+      &:hover {
+        background-image: url(../images/border-news.svg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: bottom;
+      }
     }
     &__info {
-      margin: 15px 0;
       font-family: $ff;
       font-size: 14px;
       color: #7F8187;
@@ -52,6 +55,9 @@
     border-radius: $btn-r;
     line-height: 19px;
     cursor: pointer;
+    &:hover {
+      opacity: 0.9;
+    }
     }
   }
 }
