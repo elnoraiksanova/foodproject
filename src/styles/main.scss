@@ -8,8 +8,8 @@
 }
 
 * {
-	padding: 0%;
-	margin: 0%;
+	padding: 0;
+	margin: 0;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-weight: lighter;
 	outline: none;
@@ -120,8 +120,10 @@
 		font-size: 14px;
 		color: #FFFFFF;
 		width: 94px;
+		height: 28px;
 		text-decoration: none;
 		border-radius: $btn-r;
+		margin-top: 10px;
 	}
 }
 
