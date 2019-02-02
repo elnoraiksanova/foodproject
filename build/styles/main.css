@@ -1,0 +1,103 @@
+.body {
+  display: grid;
+  grid-template-rows: 400px 195px 160px 270px auto;
+  grid-template-columns: 220px 350px 265px 280px 685px;
+  background-color: #1D2C3F; }
+
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: lighter;
+  outline: none; }
+
+.nav {
+  display: grid;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  background-color: #E9342C;
+  height: 320px;
+  margin: 80px 38px 38px 100px;
+  border-radius: 7px; }
+  .nav-link {
+    border-bottom: 1px solid rgba(68, 68, 68, 0.07);
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .nav-link__icon {
+      fill: #F47B7B; }
+      .nav-link__icon:hover {
+        fill: #FFFFFF; }
+      .nav-link__icon:active {
+        fill: #FFFFFF; }
+
+.link__no-bottom {
+  border: none; }
+
+.recipe {
+  display: grid;
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+  height: 250px;
+  margin: 77px 40px 0 0;
+  padding: 34px 34px 38px 50px;
+  border-radius: 7px;
+  background-color: #F8F9FA;
+  background-image: url(../images/linguine.png);
+  background-repeat: no-repeat;
+  background-position: 280px; }
+  .recipe__title {
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #4E4F53; }
+  .recipe__rating {
+    display: flex;
+    flex-direction: row; }
+    .recipe__rating-btn {
+      border: none;
+      background-color: inherit;
+      outline: none; }
+      .recipe__rating-btn__icon {
+        stroke: #E4E5E6;
+        fill: #F8F9FA; }
+        .recipe__rating-btn__icon:hover {
+          stroke: #F8CB69; }
+        .recipe__rating-btn__icon:active {
+          stroke: #F8CB69; }
+    .recipe__rating-result {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      font-size: 16px;
+      color: #D8D9DB;
+      font-weight: 400; }
+  .recipe__status {
+    text-decoration: none;
+    color: #8BC058;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px; }
+  .recipe__info {
+    display: flex;
+    justify-content: flex-start; }
+    .recipe__info-item {
+      display: flex;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      color: #7F8187;
+      font-weight: 300;
+      text-align: center;
+      justify-content: center; }
+      .recipe__info-item__icon {
+        stroke: #534E4F;
+        margin-left: 10px; }
+  .recipe__btn {
+    text-align: center;
+    padding: 10px 0 0 0;
+    background: #8BC058;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 94px;
+    text-decoration: none;
+    border-radius: 4px; }
