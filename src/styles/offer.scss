@@ -6,16 +6,13 @@
   grid-row: 5 / 6;
   margin: 38px 100px 38px 40px;
   background-image: url(../images/drinks.png);
-  background-color: #D8D8D8;
   background-repeat: no-repeat;
   justify-content: flex-end;
   border-radius: $default;
   &-bl {
-    padding: 28px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
     width: 450px;
     &__date {
       font-family: $ff;
@@ -25,13 +22,11 @@
     &__title {
       font-family: Helvetica, sans-serif;
 			font-size: 24px;
-			font-weight: 300;
       color: #4E4F53;
       margin: 15px 0;
     }
     &__rating {
       display: flex;
-      flex-direction: row;
       margin: 0 0 40px 0;
 		  &-btn {
 			  border: none;

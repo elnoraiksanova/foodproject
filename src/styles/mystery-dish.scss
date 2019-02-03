@@ -12,7 +12,6 @@
     background-image: url(../images/bg-mystery.png);
     background-repeat: no-repeat;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     height: 440px;
     padding: 34px 0 0 30px;
@@ -26,14 +25,12 @@
         font-family: $ff;
         font-size: 16px;
         color: #C6DDEE;
-        line-height: 18px;
         opacity: 0.7;
       }
       &__headline-time {
         font-family: $ff;
         font-size: 16px;
         color: #BCEC8F;
-        line-height: 18px;
         margin-top: 15px  
       }
     }
@@ -44,12 +41,10 @@
       width: 92px;
       height: 42px;
       background: #ECC30A;
-      border: none;
       border-top-left-radius: $btn-r;
       border-bottom-left-radius: $btn-r;
       font-family: $ff;
       font-size: 18px;
-      color: #FFFFFF;
       &__icon {
         padding-right: 13px;
         stroke: #ffffff;
@@ -60,12 +55,9 @@
   &__footer {
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 87px;
-    padding: 15px;
     &-number {
       font-family: $ff;
-      font-size: 30px;
+      font-size: 28px;
       color: #8BC058;
       background-image: url(../images/bg-mystery-number.svg);
       background-repeat: no-repeat;
@@ -84,6 +76,8 @@
       font-size: 14px;
       color: #7F8187;
       line-height: 24px;
+      margin-right: 10px;
+      width: 350px;
     }
   }
 }

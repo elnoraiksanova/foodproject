@@ -6,16 +6,13 @@
   grid-row: 1 / 2;
   height: 320px;
   margin: 80px 36px 36px 0;
-  padding: 0 15px 20px 24px;
+  padding: 25px 15px 20px 24px;
   background-image: url(../images/Bitmap-two.png);
   background-repeat: no-repeat;
-  flex-direction: column;
   font-family: $ff;
-  font-size: 16px;
   color: #F7F7F7;
   line-height: 30px;
   &-title {
-    padding-top: 28px;
     text-align: center;
   }
   &-main {

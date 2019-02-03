@@ -59,12 +59,10 @@
 	&__title {
 			font-family: Helvetica, sans-serif;
 			font-size: 24px;
-			font-weight: 300;
 			color: #4E4F53;
 	}
 	&__rating {
 		display: flex;
-		flex-direction: row;
 		&-btn {
 			border: none;
 			background-color: inherit;
@@ -97,33 +95,15 @@
 	}
 	&__info {
 		display: flex;
-		justify-content: flex-start;
 		&-item {
-			display: flex;
 			font-family: $ff;
-			font-size: 16px;
 			color: #7F8187;
-			font-weight: 300;
 			text-align: center;
-			justify-content: center;
 			&__icon {
 				stroke: #534E4F;
 				margin-left: 10px;
 			}
 		}
-	}
-	&__btn {
-		text-align: center;
-		padding: 10px 0 0 0;
-		background: #8BC058;
-		font-family: $ff;
-		font-size: 14px;
-		color: #FFFFFF;
-		width: 94px;
-		height: 28px;
-		text-decoration: none;
-		border-radius: $btn-r;
-		margin-top: 10px;
 	}
 }
 

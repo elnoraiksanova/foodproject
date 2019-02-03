@@ -7,10 +7,8 @@
   height: 540px;
   margin: 38px 0 36px 100px;
   padding: 38px;
-  background-color: #F8F9FA;
   background-image: url(../images/coffee.png);
   background-repeat: no-repeat;
-  background-position: center;
   border-radius: $default;
   &-head {
     text-align: center;
@@ -33,7 +31,6 @@
       font-family: $ff;
       font-size: 14px;
       color: #7F8187;
-      text-align: center;
       line-height: 24px;
     }
   }

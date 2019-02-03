@@ -13,11 +13,9 @@
   .date-info {
     display: flex;
 		flex-direction: column;
-		width: 210px;
 		justify-content: space-around;
 		background-image: url(../images/bg-img.png);
 		background-repeat: no-repeat;
-		padding: 0 0 20px 24px;	
 	}
     .date-info__header {
       font-family: $ff;
@@ -25,37 +23,19 @@
 			color: #FFFFFF;
 			padding: 28px;
 		}
-    .date-info__main {
-      display: flex;
-			flex-direction: column;
-      }
       .date-info__main-item {
         margin: 0 0 0 36px;
         font-family: $ff;
         font-size: 20px;
         color: #FFFFFF;
-        line-height: 30px;
-        font-weight: 300; }
+        line-height: 30px; }
     .date-info__footer-btn {
       display: flex;
       justify-content: center;
-      align-items: center;
-      background: #8BC058;
-      font-family: Helvetica, sans-serif;
-      font-size: 14px;
-      color: #FFFFFF;
-      line-height: 19px;
-      height: 32px;
-      width: 94px;
       margin: 35px 103px 34px 39px;
-      text-decoration: none;
-      border-radius: $btn-r; }
+      }
       .date-info__footer-btn:hover {
 				font-size: 15px; }
-			.date-calendar {
-				display: flex;
-				flex-direction: column;
-			}
 
 
 		.jsCalendar table {
@@ -127,7 +107,6 @@
 		}
 		.jsCalendar tbody {
 			display: block;
-			margin: 0;
 			border-bottom: 1px solid #16212F;
 		}
 		.jsCalendar ::-moz-selection {
@@ -139,7 +118,6 @@
 
 .date-calendar__footer {
 	display: flex;
-	align-items: flex-end;
 	justify-content: space-around;
 	margin-top: 30px;
 }

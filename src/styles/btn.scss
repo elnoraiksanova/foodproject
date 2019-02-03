@@ -1,0 +1,16 @@
+@import 'variables.scss';
+
+.default-btn {
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+  padding: 10px 0 0 0;
+  background-color: #8BC058;
+  font-family: $ff;
+  font-size: 14px;
+  color: white;
+  width: 94px;
+  height: 28px;
+  border: none;
+  cursor: pointer;
+}
