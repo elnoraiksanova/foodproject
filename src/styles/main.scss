@@ -28,15 +28,13 @@
 				border-bottom: 1px solid rgba($border-color, 0.07);
 				display: flex;
     		align-items: center;
-    		justify-content: center;
-			  &__icon {
-					fill: #F47B7B;
-					&:hover {
-						fill: #FFFFFF;
-					}
-					&:active {
-						fill: #FFFFFF;
-					}
+				justify-content: center;
+				fill: #F47B7B;;
+				&:hover {
+					fill: #FFFFFF;
+				}
+				&:active {
+					fill: #FFFFFF;
 				}
     }
 }
@@ -67,16 +65,14 @@
 			border: none;
 			background-color: inherit;
 			outline: none;
-			&__icon {
-				stroke: #E4E5E6;
-				fill: #F8F9FA;
+			stroke: #E4E5E6;
+			fill: #F8F9FA;
 				&:hover {
 					stroke: $star-clr;
 				}
 				&:active {
 					stroke: $star-clr;
 				}
-			}
 		}
 		&-result {
 			display: flex;
@@ -90,13 +86,13 @@
 	&__status {
 		text-decoration: none;
 		color: $clr-green;
-		font-family: $ff;
+		font-family: $default-font-family;
 		font-size: 12px;
 	}
 	&__info {
 		display: flex;
 		&-item {
-			font-family: $ff;
+			font-family: $default-font-family;
 			color: #7F8187;
 			text-align: center;
 			&__icon {
@@ -104,6 +100,9 @@
 				margin-left: 10px;
 			}
 		}
+	}
+	&__btn {
+		padding: 10px 0 0 0;
 	}
 }
 

@@ -18,21 +18,22 @@
 		background-repeat: no-repeat;
 	}
     .date-info__header {
-      font-family: $ff;
+      font-family: $default-font-family;
       font-size: 24px;
 			color: #FFFFFF;
 			padding: 28px;
 		}
       .date-info__main-item {
         margin: 0 0 0 36px;
-        font-family: $ff;
+        font-family: $default-font-family;
         font-size: 20px;
         color: #FFFFFF;
         line-height: 30px; }
     .date-info__footer-btn {
       display: flex;
       justify-content: center;
-      margin: 35px 103px 34px 39px;
+			margin: 35px 103px 34px 39px;
+			padding: 10px 0 0 0;
       }
       .date-info__footer-btn:hover {
 				font-size: 15px; }
@@ -123,17 +124,17 @@
 }
 
 .footer-time {
-	font-family: $ff;
+	font-family: $default-font-family;
 	font-size: 30px;
 	color: #ECC30A;
 }
 .footer-time__item {
-	font-family: $ff;
+	font-family: $default-font-family;
 	font-size: 18px;
 	color: #ECC30A;
 }
 .footer-info {
-	font-family: $ff;
+	font-family: $default-font-family;
 	font-size: 14px;
 	color: #FFFFFF;
 }

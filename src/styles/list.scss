@@ -9,7 +9,7 @@
   padding: 25px 15px 20px 24px;
   background-image: url(../images/Bitmap-two.png);
   background-repeat: no-repeat;
-  font-family: $ff;
+  font-family: $default-font-family;
   color: #F7F7F7;
   line-height: 30px;
   &-title {
@@ -40,11 +40,11 @@
           right: 2.5px;
           background: #fff;
         }
-        &:hover:before {
+        &:active:before {
           background: #fff;
           width: 100%;
         }
-        &:hover:after {
+        &:active:after {
           background: transparent;
           width: 100%;
         }
@@ -55,7 +55,7 @@
     text-align: center;
     &__btn {
       &-icon {
-        fill: $cng-btn;
+        fill: $btn-grey-color;
         &:hover {
           fill: #fff;
         }
