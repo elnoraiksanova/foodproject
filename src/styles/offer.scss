@@ -25,35 +25,12 @@
       color: #4E4F53;
       margin: 15px 0;
     }
-    &__rating {
-      display: flex;
-      margin: 0 0 40px 0;
-		  &-btn {
-			  border: none;
-			  background-color: inherit;
-			  outline: none;
-			  &__icon {
-				  stroke: #9AA8B3;
-				  fill: #DCE8F1;
-				&:hover {
-					stroke: $star-clr;
-				}
-				&:active {
-					stroke: $star-clr;
-				}
-			}
-		}
-		&-result {
-      margin-left: 10px;
-			display: flex;
-			align-items: center;
-			justify-content: end;
-      font-size: 16px;
-      color: #9AA8B3;
-		}
-    }
     &__btn {
       padding: 10px 0 0 0;
+      margin-top: 25px;
     }
   }
+  &__star {
+    fill: #DCE8F1;
+    }
 }

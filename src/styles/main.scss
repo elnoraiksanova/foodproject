@@ -38,9 +38,6 @@
 				}
     }
 }
-.link__no-bottom {
-	border: none;
-}
 
 .recipe {
 	display: grid;
@@ -58,30 +55,6 @@
 			font-family: Helvetica, sans-serif;
 			font-size: 24px;
 			color: #4E4F53;
-	}
-	&__rating {
-		display: flex;
-		&-btn {
-			border: none;
-			background-color: inherit;
-			outline: none;
-			stroke: #E4E5E6;
-			fill: #F8F9FA;
-				&:hover {
-					stroke: $star-clr;
-				}
-				&:active {
-					stroke: $star-clr;
-				}
-		}
-		&-result {
-			display: flex;
-			align-items: center;
-			justify-content: end;
-      font-size: 16px;
-			color: #D8D9DB;
-			font-weight: 400;
-		}
 	}
 	&__status {
 		text-decoration: none;

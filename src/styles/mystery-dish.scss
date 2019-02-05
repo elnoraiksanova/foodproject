@@ -41,17 +41,15 @@
       width: 92px;
       height: 42px;
       background: #ECC30A;
-      border-top-left-radius: $btn-r;
-      border-bottom-left-radius: $btn-r;
+      border-top-left-radius: $btn-radius;
+      border-bottom-left-radius: $btn-radius;
       font-family: $default-font-family;
       font-size: 18px;
-      &__icon {
         padding-right: 13px;
         stroke: #ffffff;
-				fill: #ECC30A;
+        fill: #ECC30A;
       }
     }
-  }
   &__footer {
     display: flex;
     align-items: center;
