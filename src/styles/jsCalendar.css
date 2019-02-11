@@ -8,7 +8,6 @@
   background-color: #0F1722;
 	border-radius: $default;
 	grid-auto-flow: column;
-	margin: 80px 100px 36px 0;
 }
   .date-info {
     display: flex;
@@ -138,3 +137,13 @@
 	font-size: 14px;
 	color: #FFFFFF;
 }
+
+/* @media (max-width: 768px) and (min-width: 375px) {
+	.date {
+		display: grid;
+		grid-column: 1 / 2;
+		grid-row: 2 / 3;
+		height: 472px;
+		margin: 20px 50px;
+	}
+} */

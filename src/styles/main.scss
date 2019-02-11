@@ -1,18 +1,14 @@
 @import 'variables.scss';
-
 .body {
+		padding: 80px 100px 20px 100px;
 		display: grid;
-		grid-template-rows: 400px 195px 160px 270px auto;
-		grid-template-columns: 220px 350px 265px 280px 685px;
+		grid-template-rows: 320px 130px 150px 250px auto;
+		grid-template-columns: 100px 300px 215px 250px 600px;
+		grid-gap: 36px;
 		background-color: #1D2C3F;
-}
-
-* {
-	padding: 0;
-	margin: 0;
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	font-weight: lighter;
-	outline: none;
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+		font-weight: lighter;
+		outline: none;
 }
  
 
@@ -22,7 +18,6 @@
 		grid-row: 1 / 2;
     background-color: #E9342C;
     height: 320px;
-    margin: 80px 38px 38px 100px;
     border-radius: $default;
     &-link {
 				border-bottom: 1px solid rgba($border-color, 0.07);
@@ -44,8 +39,7 @@
 	grid-column: 2 / 4;
 	grid-row: 1 / 2;
 	height: 250px;
-	margin: 77px 40px 0 0;
-	padding: 34px 34px 38px 50px;
+	padding: 34px 34px 34px 50px;
 	border-radius: $default;
 	background-color: #F8F9FA;
 	background-image: $img;
@@ -80,3 +74,22 @@
 }
 
 
+// @media (max-width: 768px) and (min-width: 375px) {
+// 	.body {
+// 		display: grid;
+// 		grid-template-columns: 192px 384px 192px;
+// 		grid-template-rows: 256px 512px 256px;
+// }
+// 	.nav {
+// 		grid-column: 1 / 2;
+// 		grid-row: 1 / 2;
+// 		height: 216px;
+// 		margin: 40px 20px 0 50px;
+// 	}
+// 	.recipe {
+// 		grid-column: 2 / 4;
+// 		grid-row: 1 / 2;
+// 		height: 218px;
+// 		margin: 38px 50px 0 0;
+// 	}
+// }

@@ -4,16 +4,16 @@
   display: grid;
   grid-column: 3 / 6;
   grid-row: 5 / 6;
-  margin: 38px 100px 38px 40px;
   background-image: url(../images/drinks.png);
   background-repeat: no-repeat;
   justify-content: flex-end;
   border-radius: $default;
+  background-size: 1150px;
   &-bl {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 450px;
+    padding-right: 100px;
     &__date {
       font-family: $default-font-family;
       font-size: 12px;

@@ -1,9 +1,10 @@
 @import 'variables.scss';
 
 .shoplist {
-  margin: 0 100px 38px 0;
+  display: grid;
+  grid-column: 5 / 6;
+  grid-row: 3 / 5;
   background-color: #F8F9FA;
-  height: 367px;
   padding: 32px ;
   border-radius: $default;
   display: flex;
@@ -12,6 +13,7 @@
     font-family: $default-font-family;
     font-size: 24px;
     color: #4E4F53;
+    margin: 0;
   }
   &-table {
     margin-top: 20px;

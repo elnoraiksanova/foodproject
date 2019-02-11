@@ -5,17 +5,16 @@
   grid-column: 4 / 5;
   grid-row: 1 / 2;
   height: 320px;
-  margin: 80px 36px 36px 0;
-  padding: 25px 15px 20px 24px;
   background-image: url(../images/Bitmap-two.png);
   background-repeat: no-repeat;
-  font-family: $default-font-family;
   color: #F7F7F7;
   line-height: 30px;
+  padding: 0 25px;
   &-title {
     text-align: center;
   }
   &-main {
+    padding: 0;
     &__item {
       list-style: none;
       &-link {

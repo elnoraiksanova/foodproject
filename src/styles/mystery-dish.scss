@@ -4,13 +4,12 @@
   display: grid;
   grid-column: 3 / 5;
   grid-row: 2 / 5;
-  height: 590px;
   border-radius: $default;
   background-color: #ffffff;
-  margin: 38px;
   &__main {
     background-image: url(../images/bg-mystery.png);
     background-repeat: no-repeat;
+    background-size: 501px;
     display: flex;
     justify-content: space-between;
     height: 440px;
