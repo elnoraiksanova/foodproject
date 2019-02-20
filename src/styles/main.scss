@@ -3,14 +3,15 @@
 		padding: 80px 100px 20px 100px;
 		display: grid;
 		grid-template-rows: 320px 130px 150px 250px auto;
-		grid-template-columns: 100px 300px 215px 250px 600px;
+		// grid-template-columns: 100px 300px 200px 250px 600px;
+		grid-template-columns: 1fr 3fr 2fr 2.5fr 6fr;
+		grid-auto-flow: row;
 		grid-gap: 36px;
 		background-color: #1D2C3F;
 		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 		font-weight: lighter;
 		outline: none;
 }
- 
 
 .nav {
 		display: grid;
@@ -73,23 +74,18 @@
 	}
 }
 
-
-// @media (max-width: 768px) and (min-width: 375px) {
-// 	.body {
-// 		display: grid;
-// 		grid-template-columns: 192px 384px 192px;
-// 		grid-template-rows: 256px 512px 256px;
-// }
-// 	.nav {
-// 		grid-column: 1 / 2;
-// 		grid-row: 1 / 2;
-// 		height: 216px;
-// 		margin: 40px 20px 0 50px;
-// 	}
-// 	.recipe {
-// 		grid-column: 2 / 4;
-// 		grid-row: 1 / 2;
-// 		height: 218px;
-// 		margin: 38px 50px 0 0;
-// 	}
-// }
+ @media (max-width: 375px) {
+	.body {
+		grid-template-columns:  375px;
+		grid-template-rows: 250px 250px 500px 250px 500px 300px 500px 250px;
+		grid-gap: 15px;
+		padding: 15px;
+ }
+	.nav {
+		height: 150px;
+ 	}
+	.recipe {
+		grid-column: 1 / 2;
+		grid-row: 1 / 2
+	}
+}

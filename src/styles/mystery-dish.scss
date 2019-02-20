@@ -9,13 +9,8 @@
   &__main {
     background-image: url(../images/bg-mystery.png);
     background-repeat: no-repeat;
-    background-size: 501px;
-    display: flex;
-    justify-content: space-between;
-    height: 440px;
-    padding: 34px 0 0 30px;
-    font-family: $default-font-family;
     color: #FFFFFF;
+
     &-title {
       &__headline {
         margin-bottom: 5px;

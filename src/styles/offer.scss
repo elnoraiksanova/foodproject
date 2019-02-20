@@ -9,11 +9,12 @@
   justify-content: flex-end;
   border-radius: $default;
   background-size: 1150px;
+  justify-content: flex-end;
+  padding-right: 100px;
   &-bl {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-right: 100px;
     &__date {
       font-family: $default-font-family;
       font-size: 12px;
